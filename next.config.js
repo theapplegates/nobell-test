@@ -33,6 +33,11 @@ module.exports = {
         'react-dom': 'preact/compat'
       })
     }
-    return config
-  }
-}
+return config
+ },
+   images: {
+     domains: ['applegate-paul.mo.cloudinary.net', 'gravatar.com'],
+     formats: ['image/avif', 'image/webp']
+   }
+ }
+ 
